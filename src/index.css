@@ -1,13 +1,567 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+  overflow-x: hidden;
+}
+
+.fa-star {
+  color: gold;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.avatar {
+  height: 2%;
+  width: 25%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  color: #000;
+}
+
+.navline {
+  border: 1px solid rgb(129, 126, 126);
+  margin-left: 7%;
+  margin-right: 6.5%;
+}
+
+@media only screen and (max-width: 900px) {
+  .navline {
+    display: none;
+  }
+}
+
+.image1 {
+  border-radius: 1em;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .image1 {
+    /* width: 200%;
+    margin-left: -10%; */
+  }
+}
+
+.text-main {
+  color: rgb(241, 144, 109);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.text-sub {
+  font-size: 45px;
+  white-space: nowrap;
+
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+}
+
+@media only screen and (max-width: 900px) {
+  .text-sub {
+    font-size: 30px;
+  }
+}
+
+.text-sub, span {
+  display: block;
+}
+
+.textsub {
+  padding: 9px 1px;
+  color: grey;
+}
+
+.product {
+  height: 100%;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid rgb(241, 144, 109);
+  object-fit: cover;
+}
+
+.products {
+  border-radius: 5px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  object-fit: cover;
+}
+
+.singular{
+  object-fit: cover;
+  width: 83%;
+  /* background-color: red; */
+}
+.imgGroup {
+  width: 80%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+  .imgGroup {
+    display: none;
+  }
+}
+
+.box {
+  margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 900px) {
+  .box {
+    margin-right: 40%;
+    /* float: left; */
+  }
+}
+
+.btn-box {
+  color: rgb(241, 144, 109);
+  padding: 2px 15px;
+  background-color: rgb(241, 213, 218);
+}
+
+.price {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.btn-main {
+  background-color: rgb(224, 233, 224);
+  padding: 6px 20px;
+}
+
+.btn-cart {
+  background-color: rgb(241, 110, 63);
+  color: #fff;
+  padding: 9px 60px;
+}
+
+.signs {
+  color: rgb(241, 110, 63);
+}
+
+.btn-check {
+  background-color: rgb(241, 110, 63);
+}
+
+.iconic {
+  display: block !important;
+}
+
+.imagebg {
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 900px) {
+  .imagebg {
+   width: 100%;
+
+  }
+}
+
+#single:hover.iconic {
+  display: block !important;
+}
+
+.title {
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main {
+  font-size: 17px;
+  font-family: cursive;
+}
+
+.qty {
+  padding: 5%;
+}
+
+.total {
+  margin-left: -145%;
+}
+
+.img {
+  margin-left: -30%;
+}
+.hero-text{
+  color: #eee;
+  margin-left: 3%;
+  transition: .35s ease-in-out;
+  animation: balance 2s ease-out;
+  font-family: fantasy;
+  font-size: 4rem;
+  margin-top: 25%;
+}
+big{
+  color: yellowgreen;
+}
+
+@keyframes balance {
+  12% {
+    transform: rotateX(240deg);
+  }
+  
+  24% {
+  font-weight: 900;
+    transform: rotateX(150deg);
+  }
+  
+  36% {
+    transform: rotateX(200deg);
+  }
+  
+  48% {
+    transform: rotateX(175deg);
+  }
+  
+  60%, 85% {
+    transform: rotateX(180deg);
+  }
+  
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.hero-sub{
+  color: #eee;
+  margin-left: 3%;
+  animation: rotate 1s ease-out;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: 900; */
+}
+.fa-shopping-cart{
+  cursor: pointer;
+}
+
+
+.hero {
+
+  background-image: url("https://i0.wp.com/bioplasticsnews.com/wp-content/uploads/2019/09/veja-running-shoes-bioplastics-e1568964957902.jpg?ssl=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  /* position: static; */
+  background-attachment: fixed;
+
+}
+.modal{
+  /* background-color: red; */
+}
+
+.modal-backdrop {
+  z-index: -100;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    margin-top: -58.59px;
+    width: 100%;
+    /* height: 70%; */
+  }
+
+}
+.footer-bg{
+  background-color: hsl(0, 0%, 3%);
+  height:50%;
+  color: gainsboro;
+}
+/* #date{
+  text-decoration: none;
+  background-color: rebeccapurple;
+}
+@media (min-width: 992px) {
+  #date {
+    margin-left: 5%;
+    justify-content: center;
+  }
+
+} */
+#logo{
+  font-family: fantasy;
+  font-size: 3rem;
+  color: greenyellow;
+}
+
+
+#public{
+  background-color: #eee;
+  border-radius: 1em ;
+  color: #000;
+  padding: 5px;
+}
+.about{
+  text-decoration: underline;
+}
+
+/* contact  */
+.screen {
+  position: relative;
+  background: #3e3e3e;
+  border-radius: 15px;
+}
+.background {
+  display: flex;
+  min-height: 100vh;
+  /* width: 70%; */
+  min-width: 50%;
+}
+.contact {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #4d4d4f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
+
+.screen-header-button.close {
+  background: #ed1c6f;
+}
+
+.screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.screen-header-button.minimize {
+  background: #74c54f;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: yellowgreen;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #eee;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #888;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+  padding: 5px 10px;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  opacity: 0.6;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #fff;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #fff;
+}
+
+/* .app-form-button {
+  background: none;
+  border: none;
+  color: yellowgreen;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  padding:5px 10px ;
+} */
+.app-form-button{
+  padding: 5px 10px;
+}
+.app-form-button:hover {
+  color: #eee;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #ffa4bd;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.credits-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dribbble {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
+.listed{
+  list-style: square;
+}
+#footer-Sub{
+  font-family: cursive;
+}
+.nav-item{
+  font-weight: 900;
+}
+.cat{
+  text-transform: uppercase;
+  font-family: fantasy;
+}
+.men{
+  text-decoration: underline;
+}
+.btn-about{
+  background-color: transparent;
+  border:1px solid yellowgreen;
+}
+.btn-about:hover{
+  background-color: #fff;
+  color: yellowgreen;
 }
