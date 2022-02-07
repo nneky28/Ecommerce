@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8931e3902b0c5c813e2e9829aa0ed3f6",
+    "revision": "53f7336bd7acc152abb1fb7be9e7df28",
     "url": "_https://nneky28.github.io/Ecommerce_/index.html"
   },
   {
-    "revision": "6789af20139770042d27",
+    "revision": "002e0f3dfa561486af75",
     "url": "_https://nneky28.github.io/Ecommerce_/static/css/main.ba67c966.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "_https://nneky28.github.io/Ecommerce_/static/js/3.9881a070.chunk.js"
   },
   {
-    "revision": "6789af20139770042d27",
-    "url": "_https://nneky28.github.io/Ecommerce_/static/js/main.c5f1b197.chunk.js"
+    "revision": "002e0f3dfa561486af75",
+    "url": "_https://nneky28.github.io/Ecommerce_/static/js/main.a70e1d91.chunk.js"
   },
   {
     "revision": "b803be9ae131a52cb491",
