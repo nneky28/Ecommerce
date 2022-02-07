@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "_https://nneky28.github.io/Ecommerce_/static/css/main.ba67c966.chunk.css",
-    "main.js": "_https://nneky28.github.io/Ecommerce_/static/js/main.a70e1d91.chunk.js",
-    "main.js.map": "_https://nneky28.github.io/Ecommerce_/static/js/main.a70e1d91.chunk.js.map",
-    "runtime~main.js": "_https://nneky28.github.io/Ecommerce_/static/js/runtime~main.163538ba.js",
-    "runtime~main.js.map": "_https://nneky28.github.io/Ecommerce_/static/js/runtime~main.163538ba.js.map",
-    "static/js/2.d6bbf151.chunk.js": "_https://nneky28.github.io/Ecommerce_/static/js/2.d6bbf151.chunk.js",
-    "static/js/2.d6bbf151.chunk.js.map": "_https://nneky28.github.io/Ecommerce_/static/js/2.d6bbf151.chunk.js.map",
-    "static/js/3.9881a070.chunk.js": "_https://nneky28.github.io/Ecommerce_/static/js/3.9881a070.chunk.js",
-    "static/js/3.9881a070.chunk.js.map": "_https://nneky28.github.io/Ecommerce_/static/js/3.9881a070.chunk.js.map",
-    "index.html": "_https://nneky28.github.io/Ecommerce_/index.html",
-    "precache-manifest.a3ed1ceef2dc55aca8c11708289d484f.js": "_https://nneky28.github.io/Ecommerce_/precache-manifest.a3ed1ceef2dc55aca8c11708289d484f.js",
-    "service-worker.js": "_https://nneky28.github.io/Ecommerce_/service-worker.js",
-    "static/css/main.ba67c966.chunk.css.map": "_https://nneky28.github.io/Ecommerce_/static/css/main.ba67c966.chunk.css.map"
+    "main.css": "/Ecommerce/static/css/main.ba67c966.chunk.css",
+    "main.js": "/Ecommerce/static/js/main.a70e1d91.chunk.js",
+    "main.js.map": "/Ecommerce/static/js/main.a70e1d91.chunk.js.map",
+    "runtime~main.js": "/Ecommerce/static/js/runtime~main.942ca6ae.js",
+    "runtime~main.js.map": "/Ecommerce/static/js/runtime~main.942ca6ae.js.map",
+    "static/js/2.d6bbf151.chunk.js": "/Ecommerce/static/js/2.d6bbf151.chunk.js",
+    "static/js/2.d6bbf151.chunk.js.map": "/Ecommerce/static/js/2.d6bbf151.chunk.js.map",
+    "static/js/3.9881a070.chunk.js": "/Ecommerce/static/js/3.9881a070.chunk.js",
+    "static/js/3.9881a070.chunk.js.map": "/Ecommerce/static/js/3.9881a070.chunk.js.map",
+    "index.html": "/Ecommerce/index.html",
+    "precache-manifest.725ff6e2087a58e81ed0193616019455.js": "/Ecommerce/precache-manifest.725ff6e2087a58e81ed0193616019455.js",
+    "service-worker.js": "/Ecommerce/service-worker.js",
+    "static/css/main.ba67c966.chunk.css.map": "/Ecommerce/static/css/main.ba67c966.chunk.css.map"
   }
 }
