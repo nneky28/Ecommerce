@@ -22,7 +22,7 @@ const Collection = ({item}) => {
    <div className='container'>
     
        <h1 className='cat p-2 mt-5'>Categories</h1>
-       <h4 className='men ms-5'>For Men</h4>
+       <h4 className='men ms-2'>For Men</h4>
        <div className="row">
         {
             newA.map((item,i)=>(
@@ -35,7 +35,7 @@ const Collection = ({item}) => {
             ))
         }
   </div>
-  <h4 className='men ms-5'>For Women</h4>
+  <h4 className='men ms-2'>For Women</h4>
   <div className="row">
 {
     newB.map((item,i)=>(

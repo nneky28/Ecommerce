@@ -25,10 +25,10 @@ const ProductCard = ({ pic1, title, price,item }) => {
   }
   return (
     <div className="col-11 col-md-6 col-lg-3 mx-0 mb-5">
-      <div className="card p-0 overflow-hidden h-100 single shadow ">
+      <div className="card p-0 overflow-hidden h-100 single shadow">
         <div className="card-body">
         <Link to={`/product/${item.id}`}>
-        <div className="imagebg" >
+        <div className="imagebg">
         <img src={`${pic1}`} className="img-fluid imagebg " />
         </div>
         </Link>
