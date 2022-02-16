@@ -15,7 +15,7 @@ import Women from './components/Screens/Women';
 function App() {
   return (
     
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter >
   <div className='container-flu'>
   <CartProvider>
    <Nav/>

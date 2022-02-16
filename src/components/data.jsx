@@ -31,7 +31,7 @@ const data = [
     "pic1": "/images/22.png",
     "pic2": "/images/23.png",
     "pic3": "/images/27.png",
-    "pic4": "/images/39.png",
+    "pic4": "/images/39.jpg",
     "title":" Fall Edition",
     "price":300,
     "discount":600,

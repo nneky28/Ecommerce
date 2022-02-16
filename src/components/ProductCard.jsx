@@ -28,7 +28,7 @@ const ProductCard = ({ pic1, title, price,item }) => {
       <div className="card p-0 overflow-hidden h-100 single shadow">
         <div className="card-body">
         <Link to={`/product/${item.id}`}>
-        <div className="imagebg">
+        <div className="imagebg p-2">
         <img src={`${pic1}`} className="img-fluid imagebg " />
         </div>
         </Link>
@@ -65,12 +65,6 @@ const ProductCard = ({ pic1, title, price,item }) => {
 
        />
     
-       <i className="fas fa-heart
-        mt-3 
-        ms-5
-        icon"
-
-       />
        </p>
         </div>
       </div>

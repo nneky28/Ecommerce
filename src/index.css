@@ -103,7 +103,6 @@ code {
   width: 100%;
   object-fit: cover;
   height: 100%;
-  object-fit: cover;
 }
 
 .singular{
@@ -128,8 +127,9 @@ code {
 
 @media only screen and (max-width: 900px) {
   .box {
-    margin-right: 40%;
+    /* margin-right: 40%; */
     /* float: left; */
+    width: 80%;
   }
 }
 
@@ -170,7 +170,7 @@ code {
 .imagebg {
   width: 270px;
   height: 300px;
-  object-fit: cover;
+  /* object-fit: contain; */
 }
 @media only screen and (max-width: 900px) {
   .imagebg {
@@ -213,7 +213,7 @@ code {
   animation: balance 2s ease-out;
   font-family: fantasy;
   font-size: 4rem;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 big{
   color: yellowgreen;
